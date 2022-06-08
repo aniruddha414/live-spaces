@@ -1,0 +1,16 @@
+.button {
+    width: 100px;
+    height: 40px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.selected {
+    background: black;
+    color: white;
+}

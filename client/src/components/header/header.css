@@ -1,6 +1,15 @@
 .header {
-    width: 100px;
-    height: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
     background: whitesmoke;
+    padding: 1rem;
     color: black;
+}
+
+.sub-header {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
 }

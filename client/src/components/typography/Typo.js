@@ -9,8 +9,16 @@ const CLASS_MAPPING = {
     subTitle: "sub-title",
 };
 
-const Typo = ({ type, text }) => {
-    return <div className={`${CLASS_MAPPING[type]}`}>{text}</div>;
+const Typo = ({ type, text, bold, italic }) => {
+    return (
+        <div
+            className={`${CLASS_MAPPING[type]} ${bold ? "bold" : ""} ${
+                italic ? "italic" : ""
+            }`}
+        >
+            {text}
+        </div>
+    );
 };
 
 export default Typo;

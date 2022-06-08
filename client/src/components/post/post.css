@@ -1,4 +1,33 @@
 .post {
-    width: 250px;
-    height: 150px;
+    position: relative;
+    width: 350px;
+    height: 200px;
+    background: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+}
+
+.post:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.caption-container {
+    position: absolute;
+    border-radius: 0px 0px 10px 10px;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    overflow: auto;
+}
+
+.caption {
+    padding: 1rem;
 }

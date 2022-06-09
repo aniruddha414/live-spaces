@@ -3,4 +3,25 @@
     flex-direction: row;
     gap: 2rem;
     flex-wrap: wrap;
+    padding: 1rem;
+    background: whitesmoke;
+}
+
+.clear-action-container {
+    padding-left: 1rem;
+}
+
+.clear-action {
+    color: black;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.clear-action:hover {
+    background: white;
 }

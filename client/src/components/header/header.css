@@ -2,14 +2,19 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    width: 100%;
     background: whitesmoke;
-    padding: 1rem;
     color: black;
+    padding: 1rem;
 }
 
 .sub-header {
     display: flex;
     gap: 0.5rem;
     align-items: center;
+}
+
+.separator {
+    flex: auto;
+    background: black;
+    height: 1px;
 }

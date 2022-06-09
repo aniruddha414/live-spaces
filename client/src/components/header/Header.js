@@ -4,7 +4,6 @@ import FeatherIcon from "feather-icons-react";
 import Typo from "../typography/Typo";
 
 import "./header.css";
-import Filter from "../filter/Filter";
 
 const Header = () => {
     return (
@@ -20,7 +19,7 @@ const Header = () => {
                     }
                 />
             </div>
-            <Filter />
+            <div className="separator" />
         </div>
     );
 };

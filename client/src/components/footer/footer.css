@@ -1,0 +1,8 @@
+.footer {
+    display: flex;
+    color: black;
+    background: whitesmoke;
+    padding: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}

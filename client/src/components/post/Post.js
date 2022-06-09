@@ -9,7 +9,7 @@ const Post = ({ url, caption }) => {
             <img className="image" src={url} alt="Post" />
             <div className="caption-container">
                 <div className="caption">
-                    <Typo text={caption} />
+                    <Typo text={caption} type="bodySmall" />
                 </div>
             </div>
         </div>
